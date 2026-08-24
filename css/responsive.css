@@ -1,0 +1,62 @@
+@media (max-width: 63.999rem) {
+  .desktop-nav { display: none; }
+  .menu-toggle { display: inline-flex; }
+  .hero-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .hero-photo-wrap { max-width: 28rem; margin-inline: auto; }
+  .proposal-grid-all { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+
+@media (max-width: 47.999rem) {
+  .section-space { padding-block: 4rem; }
+  .about-grid, .footer-grid { grid-template-columns: 1fr; }
+  .about-grid { gap: 2.5rem; }
+  .about-grid > .reveal, .section-heading, .proposal-card, .inner-hero .section-content { text-align: center; }
+  .about-section .eyebrow, .about-section h2, .about-section .placeholder-text { text-align: center; }
+  .section-heading { margin-inline: auto; }
+  .proposal-heading { flex-direction: column; align-items: center; }
+  .proposal-heading > div { width: 100%; }
+  .footer-grid { gap: 2.5rem; }
+  .proposal-grid-all { grid-template-columns: 1fr; }
+  .contact-band h2 { font-size: 1.5rem; line-height: 1.333; }
+}
+
+@media (max-width: 39.999rem) {
+  .container, .header-inner { width: calc(100% - 2rem); }
+  .hero-grid { width: 100%; }
+  .brand-number { padding-inline: .75rem; font-size: 1.5rem; }
+  .brand-copy strong { font-size: .875rem; }
+  .home-hero { padding-top: 6rem; }
+  .hero-grid { padding: 2rem 1rem 4rem; }
+  .hero-number { font-size: 12rem; }
+  .hero-copy { text-align: center; }
+  .eyebrow-light { max-width: 100%; justify-content: center; text-align: center; line-height: 1.35; }
+  .hero-copy h1 { font-size: 2.5rem; }
+  .hero-alias, .hero-slogan { margin-inline: auto; }
+  .candidate-badge { max-width: 100%; justify-content: center; }
+  .candidate-badge .number-mark { font-size: 3rem; }
+  .hero-slogan { font-size: 1rem; }
+  .hero-actions { flex-direction: column; justify-content: center; }
+  .hero-actions .button { width: 100%; }
+  .hero-photo-wrap { max-width: 28rem; }
+  .photo-accent { display: none; }
+  .hero-bottom-bar { height: 1.5rem; }
+  .about-grid h2, .section-heading h2 { font-size: 1.875rem; }
+  .proposal-grid-home { grid-template-columns: 1fr; }
+  .priorities-number { font-size: 10rem; }
+  .proposal-heading h3 { font-size: 1.125rem; line-height: 1.5556; }
+  .citizen-card { padding: 3rem 1.5rem; }
+  .citizen-card h2 { font-size: 1.875rem; line-height: 1.2; }
+  .citizen-card .section-content > p:nth-of-type(2) { font-size: 1rem; line-height: 1.5rem; }
+  .citizen-card .button { font-size: 1.125rem; }
+  .citizen-number { font-size: 10rem; }
+  .inner-hero { padding: 7rem 1rem 4rem; }
+  .inner-hero-number { font-size: 11rem; }
+  .inner-hero h1 { font-size: 2.25rem; line-height: 1.111; }
+  .campaign-meta { margin-inline: auto; }
+  .inner-hero .section-content > p:last-child { margin-inline: auto; }
+  .all-proposals-section { padding: 3.5rem 1rem; }
+  .contact-band { padding: 4rem 1rem; }
+  .footer-number { font-size: 9rem; }
+  .floating-whatsapp { right: .75rem; bottom: 1rem; width: 3rem; height: 3rem; }
+  .floating-whatsapp svg { width: 1.75rem; height: 1.75rem; }
+}
